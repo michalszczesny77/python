@@ -6,3 +6,4 @@ message = input("\nEnter your task or type 'quit': ")
 if message.lower() != 'quit':
     with open("tasks.txt", "a") as af:
         af.write(message + "\n")
+
