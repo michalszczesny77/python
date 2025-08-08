@@ -1,14 +1,19 @@
 # 🐍 Python Practice Projects
 
-This repository contains simple Python projects created to improve my coding skills through regular practice.
+This repository contains Python projects created to improve my coding skills through regular practice.
 
 ## 📁 Projects
 
 - **Project 1 – Calculator**  
-  Basic calculator using input, arithmetic operations, and control flow.
+  Basic calculator using user input, arithmetic operations, and control flow.
 
-- **Project 2 – Task Manager**  
-  Console-based task manager using classes and file handling (`.txt`). Includes adding, removing, and listing tasks with data persistence.
+- **Project 2 – Task Manager PRO**  
+  Console-based task manager using Object-Oriented Programming (OOP) and file handling (`.txt`).  
+  Features:  
+  - Add, remove, and list tasks  
+  - Cyclic (repeated) tasks support  
+  - Filter tasks by priority (Low/Medium/High)  
+  - Data persistence in `tasks.txt`  
 
 - **Project 3 – Functions, Lists & BMI Calculator**  
   Practice with functions (return values), list and dictionary operations, prime number checking, counting elements, and a BMI calculator.

@@ -4,5 +4,5 @@ clean up
 walk the dog
 eat dinner
 run
-walk 
+walking
 

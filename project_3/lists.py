@@ -9,5 +9,6 @@ dictionary = {
     "Germany": "Berlin"
 } 
 
+
 for key, value in dictionary.items():
     print(f"{key}-{value}")

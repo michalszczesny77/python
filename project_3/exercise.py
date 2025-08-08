@@ -26,5 +26,6 @@ def number_counter(your_list: list):
             my_dict[element] = 1
     return my_dict
 
+
 numbers = [1, 2, 3, 4, 2, 2, 2, 1]
 print(number_counter(numbers))

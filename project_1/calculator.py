@@ -57,5 +57,4 @@ def calculator():
             restarting()
 
 
-
 calculator()
