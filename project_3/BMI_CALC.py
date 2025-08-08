@@ -4,7 +4,7 @@ def bmi_calc():
     bmi = (weight / (height * height)) * 10000
     return f"Your BMI is: {round(bmi, 2)}"
 
-def bmi_interpreter():
+def bmi_interpreter(): 
     bmi = float(input("Enter your bmi: "))
     interpretation = ""
     if bmi <= 18.5:

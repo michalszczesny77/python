@@ -10,7 +10,7 @@ def is_prime(number: int):
         if number % i == 0:
             return False
     return True
-
+ 
 def sum_number_in_list(your_list: list):
     output = 0
     for x in your_list:

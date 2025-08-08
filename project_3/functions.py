@@ -9,4 +9,4 @@ def price_converter(price, tax = 2, discount = 0.9 ):
 
 greetings("Michal")
 print(add(3, 5))
-print(price_converter(100))
+print(price_converter(100)) 
