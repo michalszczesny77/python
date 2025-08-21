@@ -22,9 +22,11 @@ This repository contains Python projects created to improve my coding skills thr
   Minimalist task manager using basic file operations. Loads tasks from `tasks.txt`, displays them with numbering, and allows appending new tasks via user input.
 
 - **Project 5 – NumPy Mini Projects**  
-  Collection of small projects demonstrating NumPy usage:  
-  1. **Mini Casino 🎰** – Randomly generates a 3x3 grid of symbols (💥, 🍒) using `np.random.choice`.  
-  2. **Temperature Analyzer 🌡** – Calculates average temperature, filters days above average, and formats output.
+  Collection of small projects demonstrating NumPy basics:  
+  1. **NumPy Introductions 📊** – Basic statistics (mean, median, min, max), sorting, logical masks, random numbers.  
+  2. **Weather App 🌡** – Calculates average weekly temperature and displays days above the average.  
+  3. **Mini Casino 🎰** – Slot machine simulation generating random fruit symbols in a 4x5 grid.  
+  4. **Grade Analyzer 📝** – Generates random student grades and provides statistics (mean, median, histogram, pass rate).
 
 ---
 

@@ -1,10 +1,19 @@
 import numpy as np
 
-temperatures = np.array([28.5, 21.0, 19.8, 22.1, 20.0, 17.5, 23.0])
+x = np.array([3, 7, 1, 9, 4, 2, 6])
 
-average = np.mean(temperatures)
-print(f"Average temperature: {average:.1f}°C ")
-print("Days over average🔥")
-for day, temperature in enumerate(temperatures, start=1):
-    if temperature > average:
-        print(f"Day {day}: {temperature:.1f}°C")
+#basic statistics
+print(f"Mean: {np.mean(x):.1f}")
+print(f"Median: {np.median(x):.0f}")
+print(f"Max: {np.max(x)}")
+print(f"Min: {np.min(x)}")
+print(f"Sorted: {np.sort(x)}")
+
+#logic masks
+print(f"Greater than 3: {x[x>3]}")
+print(f"Even numbers: {x[x % 2 == 0]}")
+print(f"Odd numbers: {x[x % 2 != 0]}")
+
+#random
+print(f"Random integer number: {np.random.randint(1, 11)}")
+print(f"Random float number: {np.random.uniform(0,1):.2f}")
